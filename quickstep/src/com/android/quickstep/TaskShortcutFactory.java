@@ -440,7 +440,7 @@ public interface TaskShortcutFactory {
         }
 
         private boolean isAvailable(RecentsViewContainer container) {
-            return !enableDesktopWindowingMode();
+            return false;
         }
     };
 
